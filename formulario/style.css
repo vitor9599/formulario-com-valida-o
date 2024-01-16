@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    padding: 1rem;
+    background:rgb(15, 97, 2) ;
+}
+h1{
+    text-align: center;
+    color:hsl(0, 94%, 20%);
+}
+form{
+    display: flex;/*coloca um do lado do outro*/
+    flex-direction: column;/*coloca em coluna um de baixo do outro*/
+    gap: 2rem; /*distancia um do outro*/
+    width: 500px;
+    margin:0auto ;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: hsl(0, 94%, 20%);
+}
+input,select,textarea{
+    width:100% ;
+    padding:10px;/*espacamento interno*/
+    border: 2px solid hsl(0, 87%, 50%);
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+button{
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(0, 94%, 20%);
+    color: white;
+    font-size: 1.1rem;
+    cursor:  pointer ;
+}
